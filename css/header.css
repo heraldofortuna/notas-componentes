@@ -1,0 +1,18 @@
+.header {
+  height: 155px;
+  margin: 0 0 50px 0;
+
+  background-image: url("../images/header-image.png");
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+}
+
+.header img {
+  width: 72px;
+
+  position: absolute;
+  left: 20px;
+  bottom: -30px;
+}
