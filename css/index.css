@@ -1,35 +1,50 @@
 @import url("./header.css");
 
 :root {
-  --black: #202225;
-  --blue: #4eacee;
-  --green: #2bac76;
-  --white: #ffffff;
-  --grey: #8f9296;
-  --pink: #d63864;
-  --red: #ed4245;
-  --black-1: #2f3136;
-  --black-hover: #3a3c42;
-  --bg: #37393e;
-  --yellow: #eac645;
-  --black-2: #292b2f;
-  --purple: #414672;
-  --grey-2: #b9bbbe;
-  --headline1: 600 1.75rem / normal Poppins;
-  --headline2: 600 1.5rem / normal Poppins;
-  --headline3: 600 1.25rem/1.375rem Poppins;
-  --button: 400 0.875rem/1rem Poppins;
-  --body1-regular: 400 1rem/1.5rem Poppins;
-  --body1-bold: 700 1rem/1.5rem Poppins;
-  --body2-bold: 700 0.875rem/1.5rem Poppins;
-  --body2-regular: 400 0.875rem/1.5rem Poppins;
-  --caption-regular: 400 0.75rem/1rem Poppins;
-  --caption-bold: 600 0.75rem/1rem Poppins;
+  --color-text: #37352f;
+
+  --gray: #8f8e8a;
+  --brown: #684b3f;
+  --orange: #d9730d;
+  --yellow: #dfac03;
+  --green: #0f7b6c;
+  --blue: #0b6e99;
+  --blue-checks: #2eaadc;
+  --purple: #6940a5;
+  --pink: #b2297b;
+  --red: #e14646;
+
+  --default-tag: rgba(143, 142, 138, 0.3);
+  --gray-tag: rgba(143, 142, 138, 0.5);
+  --brown-tag: rgba(104, 75, 63, 0.3);
+  --orange-tag: rgba(217, 115, 13, 0.3);
+  --yellow-tag: rgba(223, 172, 3, 0.3);
+  --green-tag: rgba(15, 123, 108, 0.3)
+  --blue-tag: rgba(11, 110, 153, 0.3);
+  --purple-tag: rgba(105, 64, 165, 0.3);
+  --pink-tag: rgba(178, 41, 123, 0.3);
+  --red-tag: rgba(225, 70, 70, 0.3);
+
+  --light-background: #FFFFFF;
+  --dark-background: #2F3437;
+  --dark-background-2: #3F4447;
+  --dark-color-text: #EBEBEB;
+  --icons: #5F5D59;
+
+  --font: "Inter", sans-serif;
+  --heading1: normal normal 700 30px / 36px --font;
+  --heading2: normal normal 700 24px / 31px --font;
+  --heading3: normal normal 700 20px / 26px --font;
+  --paragraph: normal normal 400 16px / 24px --font;
+  --paragraph-bold: normal normal 900 16px / 24px --font;
+  --quotes: normal normal 600 20px / 26px --font;
+  --tags: normal normal 400 14px / 18px --font;
+  --links: normal normal 400 16px / 24px --font;
 }
 
 body {
-  color: var(--white);
-  font: var(--body2-regular);
+  background-color: var(--light-background);
+  font: var(--paragraph);
 }
 
 * {
