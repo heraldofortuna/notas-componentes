@@ -1,0 +1,11 @@
+.presentation {
+  background-color: rgba(209, 209, 209, 0.1);
+  padding: 16px;
+}
+
+.presentation__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+}

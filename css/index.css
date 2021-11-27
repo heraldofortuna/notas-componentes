@@ -1,4 +1,5 @@
 @import url("./header.css");
+@import url("./presentation.css");
 
 :root {
   --color-text: #37352f;
@@ -32,14 +33,15 @@
   --icons: #5F5D59;
 
   --font: "Inter", sans-serif;
-  --heading1: normal normal 700 30px / 36px --font;
-  --heading2: normal normal 700 24px / 31px --font;
-  --heading3: normal normal 700 20px / 26px --font;
-  --paragraph: normal normal 400 16px / 24px --font;
-  --paragraph-bold: normal normal 900 16px / 24px --font;
-  --quotes: normal normal 600 20px / 26px --font;
-  --tags: normal normal 400 14px / 18px --font;
-  --links: normal normal 400 16px / 24px --font;
+  --page-titles: normal normal 700 40px / 48px var(--font);
+  --heading1: normal normal 700 30px / 36px var(--font);
+  --heading2: normal normal 700 24px / 31px var(--font);
+  --heading3: normal normal 700 20px / 26px var(--font);
+  --paragraph: normal normal 400 16px / 24px var(--font);
+  --paragraph-bold: normal normal 900 16px / 24px var(--font);
+  --quotes: normal normal 600 20px / 26px var(--font);
+  --tags: normal normal 400 14px / 18px var(--font);
+  --links: normal normal 400 16px / 24px var(--font);
 }
 
 body {
@@ -53,9 +55,27 @@ body {
   box-sizing: border-box;
 }
 
-.main {
-  width: 100%;
-  height: 100px;
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
 
-  background-color: #2bac76;
+.page-titles {
+  font: var(--page-titles);
+}
+
+h1 {
+  font: var(--heading1);
+}
+
+h2 {
+  font: var(--heading2);
+}
+
+h3 {
+  font: var(--heading3);
+}
+
+p {
+  font: var(--paragraph);
 }
